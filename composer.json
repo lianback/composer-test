@@ -1,0 +1,24 @@
+{
+    "name": "lianback/composer-test",
+    "description": "This is a demo for build composer packagist.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lian lee",
+            "email": "lian@lee.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ford\\Escape\\": "src/Ford/Escape",
+            "Ford\\Fusion\\": "src/Ford/Fusion",
+            "Ford\\Focus\\": "src/Ford/Focus",
+            "Ford\\Fiesta\\": "src/Ford/Fiesta"
+        }
+    }
+}
